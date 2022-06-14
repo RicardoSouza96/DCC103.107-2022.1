@@ -100,7 +100,7 @@ void ListaEncad::insereK(int valor, int k)
     No *p = new No();
     p->setInfo(valor);
 
-    if(primeiro != NULL)
+
 }
 
 ///fazer os exercícios 5 e 6 do slide 44
