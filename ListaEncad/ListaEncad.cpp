@@ -52,58 +52,57 @@ void ListaEncad::insereFinal(int val)
         primeiro = p;
 }
 
+///exercicio 4, slide 44
 void ListaEncad::removeFinal()
-//exercicio 4, slide 44
 {
-    ///remove nó no fim da lista com valor val
+    //remove nó no fim da lista com valor val
 
     if(primeiro != NULL)
     {
-        ///ap aponta para nó anterior ao nó p
+        //ap aponta para nó anterior ao nó p
         No *ap = NULL, *p = primeiro;
 
-        ///faz p apontar para o último nó da LSE
+        //faz p apontar para o último nó da LSE
         while(p->getProx() != NULL)
         {
             ap = p;
             p = p->getProx();
         }
 
-        if(ap == NULL)  ///caso II. Lista com 1 nó. A lista se torna vazia
+        if(ap == NULL)  //caso II. Lista com 1 nó. A lista se torna vazia
             primeiro = NULL;
-        else ///caso I. Lista com 2 ou mais nós
+        else //caso I. Lista com 2 ou mais nós
             ap->setProx(NULL);
 
         delete p;
     }
 }
 
+///Exercício 5, slide 44
 int ListaEncad::contaNos()
 {
-    int contador=0;
+    int cont=0;
+    No *p;
     if(primeiro != NULL)
     {
-        contador++;
-        No *p = primeiro;
+        cont++;
+        p = primeiro;
         while(p->getProx() != NULL)
         {
-            contador++;
-            p->getProx();
+            cont++;
+            p = p->getProx();
         }
-        return contador;
+        return cont;
     }
-    return contador;
+    else
+        return -1;
 }
 
 void ListaEncad::insereK(int valor, int k)
 {
     No *p = new No();
     p->setInfo(valor);
-
-
 }
-
-///fazer os exercícios 5 e 6 do slide 44
 
 void ListaEncad::removeInicio()
 {

@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1656191486 source:c:\users\ricardo souza\codeblocks\listadescri\main.cpp
+	<iostream>
+	"ListaDescri.h"
+
+1656191018 source:c:\users\ricardo souza\codeblocks\listadescri\listadescri.cpp
+	<iostream>
+	"ListaDescri.h"
+
+1656190799 c:\users\ricardo souza\codeblocks\listadescri\listadescri.h
+	"No.h"
+
+1656189758 c:\users\ricardo souza\codeblocks\listadescri\no.h
+

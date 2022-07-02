@@ -15,8 +15,8 @@ int main()
     lista.imprimir();
 
     int nos = lista.contaNos();
-    if(nos != 0)
-        cout << nos << endl;
+    if(nos != -1)
+        cout << "Numero de nos: " << nos << endl;
     else
         cout << "Lista vazia" << endl;
 
