@@ -28,6 +28,7 @@ int main()
     lista.insereFinal(98);
     lista.imprimir();
 
+
     lista.removeFinal();
     lista.removeFinal();
     lista.removeFinal();

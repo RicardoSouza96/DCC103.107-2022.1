@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1656770782 source:c:\users\ricardo souza\codeblocks\dcc103.107-2022.1\listacirc\main.cpp
+	<iostream>
+	"ListaDupla.h"
+
+1656770770 source:c:\users\ricardo souza\codeblocks\dcc103.107-2022.1\listacirc\listadupla.cpp
+	<iostream>
+	"ListaDupla.h"
+
+1656769948 c:\users\ricardo souza\codeblocks\dcc103.107-2022.1\listacirc\listadupla.h
+	"NoDuplo.h"
+
+1656767416 c:\users\ricardo souza\codeblocks\dcc103.107-2022.1\listacirc\noduplo.h
+

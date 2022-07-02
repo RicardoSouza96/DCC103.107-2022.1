@@ -12,3 +12,16 @@
 
 1656189758 c:\users\ricardo souza\codeblocks\listadescri\no.h
 
+1656191486 source:c:\users\ricardo souza\codeblocks\dcc103.107-2022.1\listadescri\main.cpp
+	<iostream>
+	"ListaDescri.h"
+
+1656190799 c:\users\ricardo souza\codeblocks\dcc103.107-2022.1\listadescri\listadescri.h
+	"No.h"
+
+1656189758 c:\users\ricardo souza\codeblocks\dcc103.107-2022.1\listadescri\no.h
+
+1656191710 source:c:\users\ricardo souza\codeblocks\dcc103.107-2022.1\listadescri\listadescri.cpp
+	<iostream>
+	"ListaDescri.h"
+
